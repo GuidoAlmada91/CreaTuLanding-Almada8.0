@@ -2,9 +2,9 @@ import cart from "./assets/Carrito.png"
 
 const CartWidget = () => {
     return (
-        <div>
+        <div className="conedorcarrito2">
             <img className="carrito" src={cart} alt="cart-widget"></img>
-            0
+            <p className="numeroCarrito">0</p>
 
         </div>
     )

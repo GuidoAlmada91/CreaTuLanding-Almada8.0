@@ -64,8 +64,11 @@ div.app{
 
 div.carrito{
   margin-right: 15%;
+  margin-top: 15px;
+}
 
-
+.contenedorcarrito2{
+  text-align: center;
 }
 
 nav{
@@ -118,5 +121,15 @@ div.menu{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.numeroCarrito{
+  background-color: #5bd1aa;
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+img.carrito{
+  border: 2px solid #5bd1aa;
 }
 
