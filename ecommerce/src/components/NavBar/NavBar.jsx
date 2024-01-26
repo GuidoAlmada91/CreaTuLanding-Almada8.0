@@ -3,14 +3,16 @@ import CartWidget from "../CartWidget/CartWidget"
 const Navbar = () => {
     return (
         <nav>
-            <h3>Almendro</h3>
-            <div>
-                <button>Frutos Secos</button>
-                <button>Aceites</button>
-                <button>Mixs</button>
-                <button>Otros</button>
+            <h3 className="almendro">Almendro</h3>
+            <div className="menu">
+                <button>FRUTOS SECOS</button>
+                <button>ACEITES</button>
+                <button>MIXS</button>
+                <button>OTROS</button>
             </div>
-            <CartWidget />
+            <div className="carrito">
+                <CartWidget />
+            </div>
         </nav>
     )
 }

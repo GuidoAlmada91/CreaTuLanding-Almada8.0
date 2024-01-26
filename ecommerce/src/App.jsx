@@ -8,8 +8,9 @@ function App() {
 
     <div className='App'>
       <Navbar />
-      <ItemListContainer greeting={"Bienvenido"} />
-
+      <div className='contenedor-bienvenida'>
+        <ItemListContainer greeting={"Bienvenido"} />
+      </div>
     </div>
 
   )
